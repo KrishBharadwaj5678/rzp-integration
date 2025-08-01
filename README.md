@@ -8,10 +8,10 @@ A simple and secure integration of the Razorpay payment gateway using **React.js
 
 | Feature                           | Description                                              |
 |-----------------------------------|----------------------------------------------------------|
+| 🌐 Frontend UI                    | React-based interface to test the payment flow           |
 | 🔐 Secure Order Creation          | Backend securely creates payment orders using Razorpay API |
 | 💳 Checkout Integration           | Clean, responsive UI to accept card, UPI, or wallet payments |
 | ✅ Payment Verification           | Validates payment signature after successful checkout     |
-| 🌐 Frontend UI                    | React-based interface to test the payment flow           |
 
 ---
 
