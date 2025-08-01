@@ -9,10 +9,9 @@ A simple and secure integration of the Razorpay payment gateway using **React.js
 | Feature                           | Description                                              |
 |-----------------------------------|----------------------------------------------------------|
 | 🔐 Secure Order Creation          | Backend securely creates payment orders using Razorpay API |
-| 💳 Razorpay Checkout Integration  | Clean, responsive UI to accept card, UPI, or wallet payments |
+| 💳 Checkout Integration           | Clean, responsive UI to accept card, UPI, or wallet payments |
 | ✅ Payment Verification           | Validates payment signature after successful checkout     |
 | 🌐 Frontend UI                    | React-based interface to test the payment flow           |
-| 🔧 Easy Configuration             | Use `.env` file to manage Razorpay keys securely         |
 
 ---
 
@@ -28,35 +27,46 @@ A simple and secure integration of the Razorpay payment gateway using **React.js
 
 ## 📦 Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/rzp-integration.git
-   cd rzp-integration
-    ````
+### 1. Clone the repository
+```bash
+git clone https://github.com/KrishBharadwaj5678/rzp-integration.git
+cd rzp-integration
+````
 
-2. **Install dependencies**
+---
 
-   ```bash
-   npm install
-   ```
+### 2. Backend Setup
 
-3. **Configure environment variables**
+```bash
+cd backend
+npm install
+```
 
-   Create a `.env` file in the root and add your Razorpay keys:
+* Update the `.env` file inside the `backend` folder with your Razorpay keys:
 
-   ```env
-   RAZORPAY_KEY_ID=your_key_id
-   RAZORPAY_KEY_SECRET=your_key_secret
-   ```
+```env
+RAZORPAY_KEY_ID=your_key_id
+RAZORPAY_KEY_SECRET=your_key_secret
+```
 
-4. **Start the server**
+* Start the backend server:
 
-   ```bash
-   npm start
-   ```
+```bash
+npm run dev
+```
 
-5. **Test the integration**
+The backend server will run on `http://localhost:8000`.
 
-   Visit `http://localhost:3000` in your browser to try a test payment.
+---
+
+### 3. Frontend Setup
+
+Open a new terminal window/tab, then:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
 ---
