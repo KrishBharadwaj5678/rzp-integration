@@ -11,7 +11,7 @@ const Cards = ({products}) => {
         key: keyData.key, // Replace with your Razorpay key_id
         amount: orderData.order.amount, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
         currency: 'INR',
-        name: 'Furno.ai',
+        name: 'Ecommerce',   // Your Brand Name
         description: 'Razorpay Integration',
         order_id: orderData.order.id, // This is the order_id created in the backend
         callback_url: '/api/v1/paymentVerification', // Your success URL
