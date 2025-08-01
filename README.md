@@ -61,7 +61,7 @@ The backend server will run on `http://localhost:8000`.
 
 ### 3. Frontend Setup
 
-Open a new terminal window/tab, then:
+Open a new terminal, then:
 
 ```bash
 cd frontend
@@ -70,3 +70,8 @@ npm run dev
 ```
 
 ---
+
+### 4. Test the Integration
+
+* Open your browser and visit the frontend URL.
+* Try making a test payment through the Razorpay checkout interface.
